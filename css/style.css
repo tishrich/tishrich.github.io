@@ -1,0 +1,253 @@
+/*
+ * Author: Tishana Richards
+ * URL: http://tishanarichards.com
+ *
+ * Thank you for visiting my portfolio site! Designed and coded in 2015
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+/*****************************/
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    font-family:'Dosis', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none !important;
+
+}
+
+hr{
+    /*color: #383634;*/
+    height: 1px;
+    width: 250px;
+    margin: 30px auto;
+    background-color: 1px solid #ccc;
+}
+/********************/
+
+.short{
+    width: 100px;
+}
+
+i{
+    color: #c7b29a;
+}
+
+.container{
+   padding-bottom: 100px;
+}
+
+.likes i{
+    color: #f95f71;
+}
+
+/**********NavBar*********/
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/*.navbar-default .navbar-brand {
+    color: #fff;
+}*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: transparent;
+    border-bottom: 1px solid #c7b29a
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+/*****************************/
+
+
+.wrap{
+    text-align: center;
+}
+
+.wrap h1{
+    font-size: 64px;
+}
+
+#hero {
+    background-image: url('../imgs/desktopimg_dk.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+#hero img{
+    margin-top: 0;
+}
+.outline{
+   border: 1px solid #FFF;
+   color: #FFF;
+   padding: 10px 40px;
+   border-radius: 15px;
+   font-weight: bolder;
+    margin-top: 50px;
+    display:inline-block;
+}
+
+.outline:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/**********FIRST***********/
+
+
+#about{
+    background-color: #fff;
+    min-height: 400px;
+}
+
+#about p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+#about img{
+    margin-bottom: 30px;
+   
+}
+
+#about h4{
+    color: #333;
+}
+
+.about-content{
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.title{
+    color: #000;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/******PORTFOLIO*******/
+
+#portfolio{
+    background-color: #eee;
+}
+#portfolio .container{
+    padding-bottom: 150px;
+}
+
+.portfolio-one{
+    border: #000 1px solid;
+    border-radius: 5px; 
+}
+
+/* Gallery */
+.imgset {
+    margin-top: 30px;
+}
+
+.imgset img:hover {
+    opacity: 0.4;
+}
+
+
+/*********WORKS************/
+
+.work-content{
+    text-align: center;
+    background-color: #eee;
+}
+
+.work-content p {
+    font-size: 18px;
+}
+
+.work p {
+    padding: 15px;
+  }
+
+.work .container{
+    padding-bottom: 0px;
+}
+
+.work h4{
+    color: #333;
+}
+.work img{
+    /*margin-top: 50px;*/
+}
+
+.header-spacing{
+    margin-top: 50px;
+}
+
+.header-spacing-sm{
+    margin-top: 25px;
+}
+.duties{
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+  .work-detail .content{
+    background-color: #c7b29a;
+    /*background-color: #e1e1e1;*/
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+/*********FOOTER**********/
+.footer .container-fluid{
+    background-color: #c7b29a;
+    border-top: 1px solid #fff;
+    padding-bottom: 60px;
+}
+
+.footer i {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer p {
+    font-size: 18px;
+    padding: 15px;
+    color: #fff;
+}
+
+.footer li{
+    display: inline;
+    text-decoration: none;
+}
