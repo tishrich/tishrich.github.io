@@ -1,2 +1,1 @@
-# tishanarichardsportfolio
 # tishanarichards.github.io
